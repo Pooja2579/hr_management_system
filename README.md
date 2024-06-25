@@ -1,27 +1,43 @@
-# HrManagementSystem
+## HR Management System 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
+## Table of Contents
+1. Introduction
+2. Features
+3. Tech Stack
+4. Usage
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Introduction
+The HR Management System is a web-based frontend application designed to manage HR activities such as employee records, attendance, and performance evaluations. This project is developed using Angular to ensure a dynamic and responsive user interface.
 
-## Code scaffolding
+## Features
+Employee Management: Manage employee profiles, view details, and update records.
+Attendance Tracking: Visualize and manage employee attendance.
+Performance Evaluation: Record and review employee performance metrics.
+Leave Management: Apply for and manage leave requests.
+User Interface: Intuitive and responsive design using Angular.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tech Stack
+Frontend Framework: Angular 14
+Styling: SCSS, Bootstrap
+Package Manager: npm
+Build Tool: Angular CLI
 
-## Build
+## Usage
+1. Employee Information Management: Centralizes employee data and updates profiles.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Recruitment and Onboarding: Manages job postings, applicant tracking, and new hire onboarding.
 
-## Running unit tests
+3. Attendance and Leave Management: Tracks working hours, processes leave requests, and monitors attendance.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+4. Performance Management: Facilitates goal setting, performance reviews, and feedback collection.
 
-## Running end-to-end tests
+5. Payroll and Compensation: Automates payroll processing, manages compensation plans, and ensures tax compliance.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+6. Employee Self-Service: Enables employees to update personal information, apply for leave, and access documents.
 
-## Further help
+7. Training and Development: Schedules training sessions and tracks skill development and certifications.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+8. Compliance and Reporting: Ensures regulatory compliance, secures data, and generates HR reports.
+
+9. Employee Benefits Management: Administers benefits like health insurance and retirement plans.
