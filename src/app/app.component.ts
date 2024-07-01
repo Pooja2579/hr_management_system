@@ -12,4 +12,10 @@ import { UserProfileComponent } from './components/user-profile/user-profile.com
 })
 export class AppComponent {
   title = 'hr-management-system';
+  sidebarOpened = true;
+
+  toggleSidebar() {
+    this.sidebarOpened = !this.sidebarOpened;
+  }
+
 }

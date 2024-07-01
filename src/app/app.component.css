@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+  }
+  
+  .sidebar {
+    background-color: #343a40;
+    min-width: 250px;
+    height: 100vh;
+    color: white;
+    transition: all 0.3s;
+  }
+  
+  #content {
+    flex: 1;
+    padding: 20px;
+    transition: all 0.3s;
+  }
+  
+  .list-unstyled {
+    padding: 20px;
+  }
+  
+  .btn {
+    margin-bottom: 10px;
+  }
+  
