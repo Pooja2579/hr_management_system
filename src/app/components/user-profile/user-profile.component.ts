@@ -1,22 +1,13 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-user-profile',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './user-profile.component.html',
   styleUrl: './user-profile.component.css'
 })
 export class UserProfileComponent {
-  name = "Kl Rahul"
-  jobProfile = "Software Developer"
-  salary = 500000
-  isButtonDisabled = true
-
-  onChange(e:Event){
-    const value = (e.target as HTMLInputElement).value
-    console.log("called")
-
-  }
 
 }
